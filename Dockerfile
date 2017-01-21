@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.24.0
+ENV VERSION=0.13.0
 
 RUN gem install ardb --version ${VERSION} --no-format-exec
 
